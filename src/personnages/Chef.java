@@ -1,4 +1,4 @@
-package pesonnages;
+package personnages;
 
 import politique.Village;
 

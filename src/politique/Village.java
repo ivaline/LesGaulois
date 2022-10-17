@@ -26,8 +26,8 @@ public class Village {
 			System.out.println("Il n'y a pas de place pour les nouveaux gaulois");
 		}
 		else{
+			this.villageois[nbVillageois] = gaulois;
 			nbVillageois++;
-			this. villageois[nbVillageois] = gaulois;
 		}
 		
 	}
@@ -37,7 +37,7 @@ public class Village {
 	}
 	
 	public void afficherVillageois() {
-		System.out.println("Dans village du chef "+ this.chef.getNom()+" vivent les légendaires gaulois:");
+		System.out.println("Dans village du chef "+ this.chef.getNom()+" vivent les legendaires gaulois:");
 		for (int i=0; i<nbVillageois; i++) {
 			System.out.println("-"+villageois[i].getNom());
 		}

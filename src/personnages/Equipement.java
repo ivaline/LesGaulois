@@ -1,4 +1,5 @@
 package personnages;
+import personnages.Romain;
 
 public enum Equipement {
 	CASQUE("casque") , BOUCLIER("bouclier");

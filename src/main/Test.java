@@ -3,6 +3,7 @@ import personnages.Chef;
 import personnages.Gaulois;
 import politique.Village;
 import personnages.Romain;
+import personnages.Equipement;
 
 public class Test {
 
@@ -21,7 +22,13 @@ public class Test {
 		//System.out.println(gaulois);
 		Gaulois obelix = new Gaulois("Obelix", 25);
 		village.ajouterHabitant(obelix);
-		village.afficherVillageois();
+		//village.afficherVillageois();
+		
+		minus.sEquiper(Equipement.CASQUE);
+		minus.sEquiper(Equipement.CASQUE);
+		minus.sEquiper(Equipement.BOUCLIER);
+		minus.sEquiper(Equipement.BOUCLIER);
+		
 	}
 	
 

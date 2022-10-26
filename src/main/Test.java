@@ -1,5 +1,6 @@
 package main;
 import personnages.Chef;
+import personnages.Druide;
 import personnages.Gaulois;
 import politique.Village;
 import personnages.Romain;
